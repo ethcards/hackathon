@@ -35,3 +35,7 @@ http.cors:
 ## Thanks
 
 Cheers to the [Angular Elasticsearch example](https://github.com/spalger/elasticsearch-angular-example) for describing how to setup http.cors. Thanks, [spalger](https://github.com/spalger)!
+
+
+# if you try to search twitter info
+please use https://github.com/elastic/examples/tree/master/ElasticStack_twitter for streaming dataset to your es 5.x

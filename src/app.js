@@ -47,7 +47,7 @@ const SearchResults = React.createClass({
 				<hr />
 				<ul>
 				{ this.props.results.map((result) => {
-					return <li key={ result._id }>{ result._source.name }</li> }) }
+					return <img src={result._source.user.profile_image_url_https} alt='user image' width='42' height='42'/>  }) }
 				</ul>
 			</div>
 		)
